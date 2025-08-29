@@ -1,39 +1,3 @@
-// // // Initial Counts
-// let heartTotal = 0;
-// let copyTotal = 0;
-// let coins = 100;
-
-// // DOM Elements
-// const loveCount = document.getElementById("love-count");
-// const copyCount = document.getElementById("copy-count");
-// const coinDisplay = document.getElementById("coin");
-// const historyList = document.getElementById("call-history");
-
-// // 💗 Love Button Logic
-// document.querySelectorAll(".love-btn").forEach(btn => {
-//   btn.addEventListener("click", () => {
-//     heartTotal++;
-//     loveCount.textContent = heartTotal;
-//   });
-// });
-
-
-// // =======================
-// // Coins
-// // =======================
-// let coins = parseInt(document.getElementById('love-count').innerText);
-
-// // =======================
-// // Heart Icon Functionality
-// // =======================
-// let loveCount = 0;
-// document.querySelectorAll('.love-btn').forEach(btn => {
-//     btn.addEventListener('click', function() {
-//         loveCount++;
-//         document.getElementById('love-count').innerText = loveCount;
-//         this.classList.toggle('text-red-500'); // heart color toggle
-//     });
-// });
 
 
 // ❤ Love Button
@@ -72,4 +36,5 @@ callBtn.forEach(btn => {
     }
   });
 });
+
 
